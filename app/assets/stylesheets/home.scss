@@ -28,27 +28,25 @@ body {
   text-align: center;
   justify-content: center;
 }
-
-.paragraph-logo {
-  float: left;
-  height: inherit;
-  padding-right: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.paragraph-description {
-  width: 45%;
-  border-left-color: white;
-  border-left-style: solid;
-  border-left-width: 1px;
-  word-break: break-all;
-  word-wrap: break-word;
-  color: white;
-  padding-left: 8px;
-  text-align: justify;
-}
+  .paragraph-logo {
+    float: left;
+    height: inherit;
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .paragraph-description {
+    width: 45%;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 1px;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: white;
+    padding-left: 8px;
+    text-align: justify;
+  }
 
 .div-buttons{
   display: inline-flex;
@@ -56,61 +54,53 @@ body {
   margin-top: 30px;
   justify-content: center;
 }
+  .div-citizen {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+  }
+    .div-citizen p {
+      color: white;
+      font-size: 20px;
+      margin: 0;
+      font-weight: bold;
+    }
+    .div-citizen hr {
+      width: 50%;
+      border-top: 3px solid #ccc;
+      border-radius: 5px;
+    }
+    #btn-citizen:hover + hr{
+        border-color: #01a0c6;
+    }
+    #btn-citizen:hover ~ p{
+        color: #01a0c6;
+    }
+    .img-context {
+      margin-top: 15px;
+    }
 
-
-.div-citz {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  width: 25%;
-}
-  .button-citz {
-    margin-top: 15px;
-    background-color: transparent;
-    border: 0;
+  .div-gov {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
   }
-  .div-citz p {
-    color: white;
-    font-size: 20px;
-    margin: 0;
-    font-weight: bold;
-  }
-  .div-citz hr {
-    width: 50%;
-    border-top: 3px solid #ccc;
-    border-radius: 5px;
-  }
-  .button-citz:hover + hr{
-      border-color: #01a0c6;
-  }
-  .button-citz:hover ~ p{
-      color: #01a0c6;
-  }
-
-.div-gov {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  width: 25%;
-}
-  .div-gov p{
-    color: white;
-    font-size: 20px;
-    margin: 0;
-    font-weight: bold;
-  }
-  .div-gov hr {
-    width: 50%;
-    border-top: 3px solid #ccc;
-    border-radius: 5px;
-  }
-  .button-gov {
-    background-color: transparent;
-    border: 0;
-  }
-  .button-gov:hover + hr{
-      border-color: #fcf118;
-  }
-  .button-gov:hover ~ p{
-      color: #fcf118;
-  }
+    .div-gov p{
+      color: white;
+      font-size: 20px;
+      margin: 0;
+      font-weight: bold;
+    }
+    .div-gov hr {
+      width: 50%;
+      border-top: 3px solid #ccc;
+      border-radius: 5px;
+    }
+    #btn-gov:hover + hr{
+        border-color: #fcf118;
+    }
+    #btn-gov:hover ~ p{
+        color: #fcf118;
+    }
