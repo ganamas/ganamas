@@ -3,17 +3,19 @@ body {
   display: block;
   background-image: url("https://user-images.githubusercontent.com/26297247/48257452-b2bea300-e3f9-11e8-8504-edee524dfecc.png");
   background-size: 100%;
+  background-repeat: no-repeat;
   height: auto;
   background-color: #0a0d2d;
 }
 
 .logo-gana {
   display: block;
+  height: 70%;
 }
 
 .logo-img {
   width: 30%;
-  padding-top: 10%;
+  padding-top: 100px;
   display: block;
   margin: auto;
 }
@@ -48,5 +50,67 @@ body {
   text-align: justify;
 }
 
-.border-description {
+.div-buttons{
+  display: inline-flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: center;
 }
+
+
+.div-citz {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+}
+  .button-citz {
+    margin-top: 15px;
+    background-color: transparent;
+    border: 0;
+  }
+  .div-citz p {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .div-citz hr {
+    width: 50%;
+    border-top: 3px solid #ccc;
+    border-radius: 5px;
+  }
+  .button-citz:hover + hr{
+      border-color: #01a0c6;
+  }
+  .button-citz:hover ~ p{
+      color: #01a0c6;
+  }
+
+.div-gov {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+}
+  .div-gov p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .div-gov hr {
+    width: 50%;
+    border-top: 3px solid #ccc;
+    border-radius: 5px;
+  }
+  .button-gov {
+    background-color: transparent;
+    border: 0;
+  }
+  .button-gov:hover + hr{
+      border-color: #fcf118;
+  }
+  .button-gov:hover ~ p{
+      color: #fcf118;
+  }
