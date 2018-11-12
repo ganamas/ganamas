@@ -1,3 +1,51 @@
 // Place all the styles related to the Government controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.main-gov {
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  // background-image: url("https://user-images.githubusercontent.com/26297247/48337549-61592280-e64a-11e8-9bd0-8e167c3b7ac1.png");
+}
+
+.topbar {
+  height: 70px;
+  background-color: #0a0d2d;
+  display: inline-block;
+  width: 100%;
+}
+  .logo-gana img {
+    float: left;
+    margin-left: 25px;
+    width: 120px;
+    margin-top: 10px;
+  }
+  .links-gana{
+
+  }
+    .links-gana a {
+      margin-top: 25px;
+      float: right;
+      margin-right: 15px;
+      text-decoration: none;
+      color: white;
+    }
+
+.gana-instructions {
+  display: inline-flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .gana-instructions img {
+    height: 100%;
+    vertical-align: middle;
+    width: 50%;
+    // height: 10%;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
