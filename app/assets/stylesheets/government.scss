@@ -7,8 +7,8 @@
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-color: white;
-  // background-image: url("https://user-images.githubusercontent.com/26297247/48337549-61592280-e64a-11e8-9bd0-8e167c3b7ac1.png");
+  background-image: url("WEB GANA-32.jpg");
+  text-align: center;
 }
 
 .topbar {
@@ -36,18 +36,91 @@
 
 .gana-instructions {
   display: flex;
-  width: 50%;
+  width: 70%;
   margin: auto;
-  height: 85%;
+  height: 50%;
+  position: relative;
+  padding-top: 50px;
 }
   .gana-instructions img {
     width: 150px;
     display: block;
     margin: auto;
+    padding-right: 15px;
   }
-  .gana-instructions img:last-child {
-    width: 50px;
-    height: 25px;
+  .gana-instructions a:last-child {
+
+    padding-right: 0;
+  }
+  .gana-instructions a {
+    width: 150px;
+    text-align: center;
     display: block;
-    margin: auto 0 auto 0;
+    margin: auto;
+    padding-right: 15px;
+    text-decoration: none;
+    font-style: normal;
+    color: #0a0d2d;
+  }
+  .gana-g:hover ~ p {
+    color: blue;
+  }
+
+hr {
+  width: 50%;
+}
+
+.gana-g:hover ~ .teste {
+  color: white;
+  background-color: blue;
+}
+
+.gana-g {
+  width: 165px;
+  height: 150px;
+  background-image: url("WEB GANA-36.png");
+  background-size: 165px 150px;
+}
+  .gana-g:hover {
+    background-image: url("WEB GANA-41.png");
+  }
+
+.gana-a1 {
+  background-size: 165px 150px;
+  width: 165px;
+  height: 150px;
+  background-image: url("WEB GANA-42.png");
+}
+  .gana-a1:hover {
+    background-image: url("WEB GANA-37.png");
+  }
+
+.gana-n {
+  background-size: 165px 150px;
+  width: 165px;
+  height: 150px;
+  background-image: url("WEB GANA-43.png");
+}
+  .gana-n:hover {
+    background-image: url("WEB GANA-38.png");
+  }
+
+.gana-a2 {
+  background-size: 165px 150px;
+  width: 165px;
+  height: 150px;
+  background-image: url("WEB GANA-44.png");
+}
+  .gana-a2:hover {
+    background-image: url("WEB GANA-39.png");
+  }
+
+.gana-mas {
+  background-size: 165px 150px;
+  width: 165px;
+  height: 150px;
+  background-image: url("2-45.png");
+}
+  .gana-mas:hover {
+    background-image: url("2-40.png");
   }

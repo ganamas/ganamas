@@ -27,10 +27,32 @@
   <% end %>
 
   <%= content_tag(:div, class: "gana-instructions") do %>
-    <%= image_tag("1-16") %>
-    <%= image_tag("1-16") %>
-    <%= image_tag("1-16") %>
-    <%= image_tag("1-16") %>
-    <%= image_tag("1-16") %>
+    <%= link_to citizen_index_path do %>
+      <div class="gana-g">
+      </div>
+      <%= content_tag(:p, "Genera") %>
+    <% end %>
+    <%= link_to citizen_index_path do %>
+      <div class="gana-a1">
+      </div>
+      <%= content_tag(:p, "Arranca") %>
+    <% end %>
+    <%= link_to citizen_index_path do %>
+      <div class="gana-n">
+      </div>
+      <%= content_tag(:p, "Genera") %>
+    <% end %>
+    <%= link_to citizen_index_path do %>
+      <div class="gana-a2">
+      </div>
+      <%= content_tag(:p, "Aporta") %>
+    <% end %>
+    <%= link_to citizen_index_path do %>
+      <div class="gana-mas">
+      </div>
+      <%= content_tag(:p, "Plus") %>
+    <% end %>
   <% end %>
+  <hr />
+  <%= content_tag(:p, "teste", class:"teste") %>
 <% end %>
