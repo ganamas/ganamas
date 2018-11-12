@@ -1,9 +1,11 @@
-<%= content_tag(:div, class: "logo-gana") do %>
+<%= content_tag(:div, class: "main") do %>
   <%= image_tag("logo-white-gana", class: "logo-img") %>
   <%= content_tag(:div, class: "description") do %>
     <%= content_tag(:p, "¿Qué es?", class: "paragraph-logo") %>
     <%= content_tag(:p, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled", class: "paragraph-description") %>
   <% end %>
+
+  <%= image_tag("15-22", class: "img-inicia") %>
 
   <%= content_tag(:div, class: "div-buttons") do %>
     <%= content_tag(:div, class: "div-gov") do %>
@@ -11,12 +13,12 @@
       <%= image_tag("1-15") %>
     <% end %>
     <hr />
-    <%= content_tag(:p, "Soy Gobierno", class: "teste") %>
+    <%= content_tag(:p, "Soy Gobierno") %>
   <% end %>
 
   <%= content_tag(:div, class: "div-citizen") do %>
     <%= link_to citizen_index_path, id: "btn-citizen" do %>
-        <%= image_tag("1-16", class: "img-context") %>
+        <%= image_tag("1-16") %>
     <% end %>
     <hr />
     <%= content_tag(:p, "Soy Ciudadano") %>

@@ -1,21 +1,21 @@
-body {
+body, html {
+  height: 100%;
   margin: 0;
-  display: block;
-  background-image: url("https://user-images.githubusercontent.com/26297247/48257452-b2bea300-e3f9-11e8-8504-edee524dfecc.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: auto;
   background-color: #0a0d2d;
 }
 
-.logo-gana {
+.main {
+  background-repeat: no-repeat;
+  background-image: url("https://user-images.githubusercontent.com/26297247/48257452-b2bea300-e3f9-11e8-8504-edee524dfecc.png");
   display: block;
-  height: 70%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .logo-img {
   width: 30%;
-  padding-top: 100px;
+  padding-top: 50px;
   display: block;
   margin: auto;
 }
@@ -48,10 +48,17 @@ body {
     text-align: justify;
   }
 
+.img-inicia {
+  padding-top: 30px;
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
 .div-buttons{
   display: inline-flex;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
   justify-content: center;
 }
   .div-citizen {
@@ -77,8 +84,9 @@ body {
     #btn-citizen:hover ~ p{
         color: #01a0c6;
     }
-    .img-context {
+    .div-citizen img {
       margin-top: 15px;
+      width: 150px;
     }
 
   .div-gov {
@@ -103,4 +111,7 @@ body {
     }
     #btn-gov:hover ~ p{
         color: #fcf118;
+    }
+    .div-gov img {
+      width: 160px;
     }
