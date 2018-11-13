@@ -12,7 +12,7 @@
   .main-genera p{
     color: #0a0d2d;
   }
-  .main-genera hr {
+  .hr1, .hr2 {
     display: block;
     height: 1px;
     border: 0;
@@ -156,12 +156,8 @@
 .blue-genera-second-step {
   display: block;
   margin-top: 70px;
+  width: 100%;
 }
-
-.descarga-genera-second-step {
-  display: flex;
-}
-
 .arrow-second-step {
   width: 15%;
   margin-left: -50%;
@@ -175,10 +171,39 @@
   margin-left: auto;
   margin-right: auto;
 }
-.teste1 {
+.background-second-step {
   width: 30%;
   height: 500px;
   background-color: #01a0c6;
   margin-top: -12%;
   margin-left: 16%;
+}
+
+  .descarga-second-step {
+    display: block;
+    height: auto;
+    width: auto;
+    margin-top: -20%;
+  }
+  .descarga-second-step img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+  }
+  .descarga-second-step img:last-child{
+    width: 17%;
+    margin-top: 20px;
+  }
+  .testehr {
+    color: pink !important;
+  }
+  .hr3 {
+    width: 75%;
+    margin-top: 32%;
+  }
+
+.gana-actores {
+  width: 100%;
+  display: block;
+  height: auto;
 }
