@@ -24,6 +24,7 @@
     <% end %>
   <% end %>
   <p>Kit de <b>herramientas</b> para Presupuestos Participativos</p>
+
   <hr />
 
   <%= content_tag(:div, class: "first-step") do %>
@@ -37,10 +38,28 @@
       <%= image_tag("WEB-GANA-55") %>
     <% end %>
   <% end %>
+
+  <hr />
+  <%= content_tag(:div, class: "genera-second-step") do %>
+    <%= content_tag(:div, class: "second-step-flex") do %>
+      <%= content_tag(:div, class: "images-genera-second-step") do %>
+        <%= image_tag("WEB-GANA-53", class: "background-blue") %>
+        <%= content_tag(:div, class: "img-genera-secon-step") do %>
+          <%= image_tag("WEB-GANA-54", class: "genera-herramientas") %>
+          <%= image_tag("WEB-GANA-61", class: "gana-mas-image") %>
+        <% end %>
+      <% end %>
+      <%= content_tag(:div, class: "second-step-content") do %>
+        <%= image_tag("WEB-GANA-67", class: "title-second-step") %>
+        <%= content_tag(:p, "Conformaremos un equipo promotor formado por políticos, expertos, sociedad civil y organizaciones. ") %>
+      <% end %>
+    <% end %>
+  <% end %>
+
   <hr />
 
 <% end %>
 
 
 
-<%= render template: "footer/index" %>
+<!-- <%= render template: "footer/index" %> -->
