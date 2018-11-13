@@ -25,6 +25,20 @@
   <% end %>
   <p>Kit de <b>herramientas</b> para Presupuestos Participativos</p>
   <hr />
+
+  <%= content_tag(:div, class: "first-step") do %>
+    <%= content_tag(:div, class: "image-first-step") do %>
+      <div class="gana-genera-first-step"></div>
+    <% end %>
+
+    <%= content_tag(:div, class: "text-first-step") do %>
+      <h3>Es el primer paso de nuestro recorrido.</h3>
+      <%= content_tag(:p, "Aquí vamos a conformar el grupo promotor, implicando a diferentes actores en la gestación e implementación de los presupuestos participativos.") %>
+      <%= image_tag("WEB-GANA-55") %>
+    <% end %>
+  <% end %>
+  <hr />
+
 <% end %>
 
 
