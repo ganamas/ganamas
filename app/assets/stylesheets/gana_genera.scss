@@ -71,7 +71,7 @@
   }
   .gana-genera-mas {
     width: 35px;
-    height: 55px;
+    height: 50px;
     background-image: url("WEB-GANA-50.jpg");
     background-size: 35px 75px;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@
     width: 17%;
     margin-top: 20px;
   }
-  .hr3 {
+  .hr3, .hr4 {
     width: 75%;
     margin-top: 20%;
   }
@@ -288,3 +288,20 @@
       width: 17%;
       margin-top: 20px;
     }
+
+  .genera-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .background-blue-footer{
+    width: 45px;
+    height: 330px;
+    float: left;
+    margin-top: 60px;
+  }
+  .genera-footer a {
+    margin-left: 0 !important;
+    margin-right: 3px;
+    text-decoration: none;
+  }

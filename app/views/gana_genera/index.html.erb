@@ -91,6 +91,38 @@
       <%= image_tag("WEB-GANA-60") %>
     <% end %>
   <% end %>
+
+  <hr class="hr4">
+
+  <%= image_tag("WEB-GANA-53", class: "background-blue-footer") %>
+
+  <%= content_tag(:div, class: "genera-footer") do %>
+
+    <%= link_to gana_genera_index_path do %>
+      <div class="gana-genera-g"></div>
+      <p>1</p>
+    <% end %>
+    <%= link_to gana_arranca_index_path do %>
+      <div class="gana-genera-a1">
+      </div>
+      <p>2</p>
+    <% end %>
+    <%= link_to gana_navega_index_path do %>
+      <div class="gana-genera-n">
+      </div>
+      <p>3</p>
+    <% end %>
+    <%= link_to gana_aporta_index_path do %>
+      <div class="gana-genera-a2">
+      </div>
+      <p>4</p>
+    <% end %>
+    <%= link_to gana_mas_index_path do %>
+      <div class="gana-genera-mas">
+      </div>
+      <p>más</p>
+    <% end %>
+  <% end %>
 <% end %>
 
 
