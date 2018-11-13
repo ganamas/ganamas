@@ -102,16 +102,19 @@ hr {
   }
 
 .gana-mas {
-  background-size: 165px 150px;
-  width: 165px;
+  background-size: 100px 150px;
+  width: 100px;
   height: 150px;
-  background-image: url("2-45.png");
+  background-image: url("WEB-GANA-50.jpg");
 }
   .gana-mas:hover {
-    background-image: url("2-40.png");
+    background-image: url("WEB-GANA-60.png");
   }
   .gana-mas:hover ~ p {
     color: red;
+  }
+  .teste {
+    width: 100px !important;
   }
 
 p {

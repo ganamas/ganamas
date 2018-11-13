@@ -22,7 +22,7 @@
       </div>
       <%= content_tag(:p, "Aporta") %>
     <% end %>
-    <%= link_to gana_mas_index_path do %>
+    <%= link_to gana_mas_index_path, class: "teste" do %>
       <div class="gana-mas">
       </div>
       <%= content_tag(:p, "Más") %>
@@ -33,7 +33,9 @@
   <%= content_tag(:p, "Estamos en la segunda instancia. Vamos a co-diseñar propuestas para invertir nuestros recursos y empoderar a la ciudadanía en un proceso colectivo de trabajo.", class:"a1-description") %>
   <%= content_tag(:p, "Este es nuestro momento crucial. Viajamos hacia la instancia de votación. Las propuestas ya se presentaron y ahora elegimos las ganadoras.", class:"n-description") %>
   <%= content_tag(:p, "Nos organizamos para garantizar que los proyectos se concreten a través de mecanismos de transparencia y control ciudadano. ", class:"a2-description") %>
-  <%= content_tag(:p, "Yo soy MALOQUEIRO, mi hermano", class:"mas-description") %>
+  <%= content_tag(:p, "Aquí te vamos a ofrecer tips y herramientas extras para que acompañes el proceso. ", class:"mas-description") %>
+
+  <%= render template: "footer/index" %>
 <% end %>
 
 <script type="text/javascript">
