@@ -96,35 +96,39 @@
 
   <%= image_tag("WEB-GANA-53", class: "background-blue-footer") %>
 
-  <%= content_tag(:div, class: "genera-footer") do %>
+  <%= content_tag(:div, class: "genera-footer-block") do %>
+    <%= content_tag(:div, class: "genera-footer") do %>
+      <%= link_to gana_genera_index_path do %>
+        <div class="gana-genera-g"></div>
+        <p>1</p>
+      <% end %>
+      <%= link_to gana_arranca_index_path do %>
+        <div class="gana-genera-a1">
+        </div>
+        <p>2</p>
+      <% end %>
+      <%= link_to gana_navega_index_path do %>
+        <div class="gana-genera-n">
+        </div>
+        <p>3</p>
+      <% end %>
+      <%= link_to gana_aporta_index_path do %>
+        <div class="gana-genera-a2">
+        </div>
+        <p>4</p>
+      <% end %>
+      <%= link_to gana_mas_index_path do %>
+        <div class="gana-genera-mas">
+        </div>
+        <p>más</p>
+      <% end %>
 
-    <%= link_to gana_genera_index_path do %>
-      <div class="gana-genera-g"></div>
-      <p>1</p>
     <% end %>
-    <%= link_to gana_arranca_index_path do %>
-      <div class="gana-genera-a1">
-      </div>
-      <p>2</p>
-    <% end %>
-    <%= link_to gana_navega_index_path do %>
-      <div class="gana-genera-n">
-      </div>
-      <p>3</p>
-    <% end %>
-    <%= link_to gana_aporta_index_path do %>
-      <div class="gana-genera-a2">
-      </div>
-      <p>4</p>
-    <% end %>
-    <%= link_to gana_mas_index_path do %>
-      <div class="gana-genera-mas">
-      </div>
-      <p>más</p>
-    <% end %>
+    <p style="color: #01a0c6"><b>Terminastes? Genial!</b></p>
+    <p style="width: 50%; margin:auto;">Te invitamos a pasar a la seguinte etapa.<br>No olvides dar check en tu <b>Lienzo de Presupuestos Participativos</b> y compartir tu experiencia en redes sociales con el </p>
   <% end %>
 <% end %>
 
 
 
-<!-- <%= render template: "footer/index" %> -->
+<%= render template: "footer/index" %>
