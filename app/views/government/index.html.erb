@@ -27,32 +27,79 @@
   <% end %>
 
   <%= content_tag(:div, class: "gana-instructions") do %>
-    <%= link_to citizen_index_path do %>
+    <%= link_to gana_genera_index_path do %>
       <div class="gana-g">
       </div>
       <%= content_tag(:p, "Genera") %>
     <% end %>
-    <%= link_to citizen_index_path do %>
+    <%= link_to gana_arranca_index_path do %>
       <div class="gana-a1">
       </div>
       <%= content_tag(:p, "Arranca") %>
     <% end %>
-    <%= link_to citizen_index_path do %>
+    <%= link_to gana_navega_index_path do %>
       <div class="gana-n">
       </div>
-      <%= content_tag(:p, "Genera") %>
+      <%= content_tag(:p, "Navega") %>
     <% end %>
-    <%= link_to citizen_index_path do %>
+    <%= link_to gana_aporta_index_path do %>
       <div class="gana-a2">
       </div>
       <%= content_tag(:p, "Aporta") %>
     <% end %>
-    <%= link_to citizen_index_path do %>
+    <%= link_to gana_mas_index_path do %>
       <div class="gana-mas">
       </div>
-      <%= content_tag(:p, "Plus") %>
+      <%= content_tag(:p, "Más") %>
     <% end %>
   <% end %>
   <hr />
-  <%= content_tag(:p, "teste", class:"teste") %>
+  <%= content_tag(:p, "Es el primer paso de nuestro recorrido. Aquí vamos a conformar el grupo promotor, implicando a diferentes actores en la gestación e implementación de los presupuestos participativos.", class:"g-description") %>
+  <%= content_tag(:p, "Estamos en la segunda instancia. Vamos a co-diseñar propuestas para invertir nuestros recursos y empoderar a la ciudadanía en un proceso colectivo de trabajo.", class:"a1-description") %>
+  <%= content_tag(:p, "Este es nuestro momento crucial. Viajamos hacia la instancia de votación. Las propuestas ya se presentaron y ahora elegimos las ganadoras.", class:"n-description") %>
+  <%= content_tag(:p, "Nos organizamos para garantizar que los proyectos se concreten a través de mecanismos de transparencia y control ciudadano. ", class:"a2-description") %>
+  <%= content_tag(:p, "Yo soy MALOQUEIRO, mi hermano", class:"mas-description") %>
 <% end %>
+
+<script type="text/javascript">
+  $(function() {
+    $('.gana-g').hover(function() {
+      $('.g-description').css('display', 'block');
+    }, function() {
+      // on mouseout, reset the background colour
+      $('.g-description').css('display', 'none');
+    });
+  });
+  $(function() {
+    $('.gana-a1').hover(function() {
+      $('.a1-description').css('display', 'block');
+    }, function() {
+      // on mouseout, reset the background colour
+      $('.a1-description').css('display', 'none');
+    });
+  });
+  $(function() {
+    $('.gana-n').hover(function() {
+      $('.n-description').css('display', 'block');
+    }, function() {
+      // on mouseout, reset the background colour
+      $('.n-description').css('display', 'none');
+    });
+  });
+  $(function() {
+    $('.gana-a2').hover(function() {
+      $('.a2-description').css('display', 'block');
+    }, function() {
+      // on mouseout, reset the background colour
+      $('.a2-description').css('display', 'none');
+    });
+  });
+  $(function() {
+    $('.gana-mas').hover(function() {
+      $('.mas-description').css('display', 'block');
+    }, function() {
+      // on mouseout, reset the background colour
+      $('.mas-description').css('display', 'none');
+    });
+  });
+</script>

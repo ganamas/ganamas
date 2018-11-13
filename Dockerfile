@@ -11,6 +11,4 @@ RUN bundle install
 
 COPY . /ganamas
 
-RUN rm tmp/pids/server.pid
-
 CMD rails s

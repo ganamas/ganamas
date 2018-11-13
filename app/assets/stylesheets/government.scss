@@ -62,9 +62,6 @@
     font-style: normal;
     color: #0a0d2d;
   }
-  .gana-g:hover ~ p {
-    color: blue;
-  }
 
 hr {
   width: 50%;
@@ -84,6 +81,9 @@ hr {
   .gana-g:hover {
     background-image: url("WEB GANA-41.png");
   }
+  .gana-g:hover ~ p {
+    color: #01a0c6;
+  }
 
 .gana-a1 {
   background-size: 165px 150px;
@@ -93,6 +93,9 @@ hr {
 }
   .gana-a1:hover {
     background-image: url("WEB GANA-37.png");
+  }
+  .gana-a1:hover ~ p {
+    color: #0b8a36;
   }
 
 .gana-n {
@@ -104,6 +107,9 @@ hr {
   .gana-n:hover {
     background-image: url("WEB GANA-38.png");
   }
+  .gana-n:hover ~ p {
+    color: #f98511;
+  }
 
 .gana-a2 {
   background-size: 165px 150px;
@@ -113,6 +119,9 @@ hr {
 }
   .gana-a2:hover {
     background-image: url("WEB GANA-39.png");
+  }
+  .gana-a2:hover ~ p {
+    color: #901183;
   }
 
 .gana-mas {
@@ -124,3 +133,18 @@ hr {
   .gana-mas:hover {
     background-image: url("2-40.png");
   }
+  .gana-mas:hover ~ p {
+    color: red;
+  }
+
+p {
+    margin-left: 7.5px;
+}
+
+.g-description, .a1-description, .n-description,
+.a2-description, .mas-description {
+  display: none;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
