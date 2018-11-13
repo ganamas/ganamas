@@ -1,30 +1,5 @@
 <%= content_tag(:div, class: "main-gov") do %>
-  <%= content_tag(:div, class: "topbar") do %>
-
-    <%= content_tag(:div, class: "logo-gana") do %>
-      <%= link_to root_path do %>
-        <%= image_tag("logo-white-gana") %>
-      <% end %>
-    <% end %>
-
-    <%= content_tag(:div, class: "links-gana") do %>
-      <%= link_to citizen_index_path do %>
-        Contacto
-      <% end %>
-      <%= link_to citizen_index_path do %>
-        Nosotros
-      <% end %>
-      <%= link_to citizen_index_path do %>
-        ¿Que és?
-      <% end %>
-      <%= link_to citizen_index_path do %>
-        Ciudadanía+
-      <% end %>
-      <%= link_to government_index_path do %>
-        Gobierno+
-      <% end %>
-    <% end %>
-  <% end %>
+  <%= render template: "topbar/index" %>
 
   <%= content_tag(:div, class: "gana-instructions") do %>
     <%= link_to gana_genera_index_path do %>

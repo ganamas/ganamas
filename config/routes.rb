@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'topbar/index'
+  get 'footer/index'
   get 'gana_mas/index'
   get 'gana_aporta/index'
   get 'gana_navega/index'
