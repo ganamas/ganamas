@@ -1,0 +1,26 @@
+// Place all the styles related to the topbar controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.topbar {
+  height: 70px;
+  background-color: #0a0d2d;
+  display: inline-block;
+  width: 100%;
+}
+  .logo-gana img {
+    float: left;
+    margin-left: 25px;
+    width: 120px;
+    margin-top: 10px;
+  }
+  .links-gana{
+
+  }
+    .links-gana a {
+      margin-top: 25px;
+      float: right;
+      margin-right: 15px;
+      text-decoration: none;
+      color: white;
+    }
