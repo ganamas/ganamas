@@ -71,9 +71,15 @@
   <hr class="hr3">
 
   <%= content_tag(:div, class: "gana-actores") do %>
-    <%= image_tag("") %>
-  <% end %>
+    <%= content_tag(:div, class: "gana-actores-title") do %>
+      <%= content_tag(:div, class: "title-actores") do %>
+        <%= image_tag("WEB-GANA-56", class: "name-title-actors") %>
+        <p> Conformaremos un <b>equipo promotor</b> formado por políticos, expertos, sociedad civil y organizaciones.</p>
+      <% end %>
+      <%= image_tag("WEB-GANA-57", class: "personas-title-actors") %>
+    <% end %>
 
+  <% end %>
 <% end %>
 
 

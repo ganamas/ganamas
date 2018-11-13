@@ -5,7 +5,7 @@
 .main-genera {
   background-color: white;
   width: 100%;
-  height: 100%;
+  height: 130%;
   text-align: center;
   display: block;
 }
@@ -174,6 +174,7 @@
 .background-second-step {
   width: 30%;
   height: 500px;
+  max-height: 20%;
   background-color: #01a0c6;
   margin-top: -12%;
   margin-left: 16%;
@@ -194,12 +195,9 @@
     width: 17%;
     margin-top: 20px;
   }
-  .testehr {
-    color: pink !important;
-  }
   .hr3 {
     width: 75%;
-    margin-top: 32%;
+    margin-top: 20%;
   }
 
 .gana-actores {
@@ -207,3 +205,21 @@
   display: block;
   height: auto;
 }
+  .gana-actores-title {
+    display: flex;
+    margin-left: auto;
+    margin-top: 60px;
+  }
+  .name-title-actors {
+    width: 45%;
+    height: 50%;
+    margin-left: auto;
+  }
+  .title-actores p {
+    width: 62%;
+    margin: auto;
+  }
+  .personas-title-actors {
+    width: 20%;
+    margin-right: auto;
+  }
