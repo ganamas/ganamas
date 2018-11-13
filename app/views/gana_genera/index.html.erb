@@ -1,2 +1,32 @@
-<h1>GanaGenera#index</h1>
-<p>Find me in app/views/gana_genera/index.html.erb</p>
+<%= render template: "topbar/index" %>
+
+<%= content_tag(:div, class: "main-genera") do %>
+  <%= content_tag(:div, class: "gana-div") do %>
+    <%= link_to gana_genera_index_path do %>
+      <div class="gana-genera-g">
+      </div>
+    <% end %>
+    <%= link_to gana_arranca_index_path do %>
+      <div class="gana-genera-a1">
+      </div>
+    <% end %>
+    <%= link_to gana_navega_index_path do %>
+      <div class="gana-genera-n">
+      </div>
+    <% end %>
+    <%= link_to gana_aporta_index_path do %>
+      <div class="gana-genera-a2">
+      </div>
+    <% end %>
+    <%= link_to gana_mas_index_path do %>
+      <div class="gana-genera-mas">
+      </div>
+    <% end %>
+  <% end %>
+  <p>Kit de <b>herramientas</b> para Presupuestos Participativos</p>
+  <hr />
+<% end %>
+
+
+
+<%= render template: "footer/index" %>
