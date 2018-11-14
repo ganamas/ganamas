@@ -1,3 +1,67 @@
-// Place all the styles related to the gana_aporta controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.gana-aporta-g {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB-GANA-36.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+  .gana-aporta-g:hover {
+    background-image: url("WEB-GANA-41.png");
+  }
+.gana-aporta-a1 {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB GANA-42.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+  .gana-aporta-a1:hover {
+      background-image: url("WEB GANA-37.png");
+  }
+.gana-aporta-n {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB GANA-43.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+  .gana-aporta-n:hover {
+    background-image: url("WEB-GANA-88.png");
+  }
+.gana-aporta-a2 {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB GANA-39.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+.gana-aporta-mas {
+  width: 35px;
+  height: 50px;
+  background-image: url("WEB-GANA-50.jpg");
+  background-size: 35px 75px;
+  background-repeat: no-repeat;
+}
+  .gana-aporta-mas:hover {
+    background-image: url("WEB-GANA-60.png");
+  }
+
+.aporta-hr1,
+.aporta-hr2 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #901183;
+  width: 50%;
+}
+
+.gana-aporta-first-step {
+  width: 200px;
+  height: 200px;
+  background-image: url("WEB GANA-39.png");
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+.gana-aporta-first-step p {
+  width: 50px;
+}

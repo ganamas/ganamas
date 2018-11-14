@@ -1,2 +1,127 @@
-<h1>GanaAporta#index</h1>
-<p>Find me in app/views/gana_aporta/index.html.erb</p>
+<%= render template: "topbar/index" %>
+
+<%= content_tag(:div, class: "main-genera") do %>
+  <%= content_tag(:div, class: "gana-div") do %>
+    <%= link_to gana_genera_index_path do %>
+      <div class="gana-aporta-g">
+      </div>
+    <% end %>
+    <%= link_to gana_arranca_index_path do %>
+      <div class="gana-aporta-a1">
+      </div>
+    <% end %>
+    <%= link_to gana_navega_index_path do %>
+      <div class="gana-aporta-n">
+      </div>
+    <% end %>
+    <%= link_to gana_aporta_index_path do %>
+      <div class="gana-aporta-a2">
+      </div>
+    <% end %>
+    <%= link_to gana_mas_index_path do %>
+      <div class="gana-aporta-mas">
+      </div>
+    <% end %>
+  <% end %>
+  <p>Kit de <b>herramientas</b> para Presupuestos Participativos</p>
+
+  <hr class="aporta-hr1">
+
+  <%= content_tag(:div, class: "first-step") do %>
+    <%= content_tag(:div, class: "image-first-step") do %>
+      <div class="gana-aporta-first-step"></div>
+    <% end %>
+
+    <%= content_tag(:div, class: "text-first-step") do %>
+      <h3>Es el primer paso de nuestro recorrido.</h3>
+      <%= content_tag(:p, "Nos organizamos para garantizar que los proyectos se concreten a través de mecanismos de transparencia y control ciudadano. ") %>
+      <%= image_tag("WEB-GANA-55") %>
+    <% end %>
+  <% end %>
+
+  <hr class="aporta-hr2">
+  <%= content_tag(:div, class: "genera-second-step") do %>
+    <%= content_tag(:div, class: "second-step-flex") do %>
+      <%= content_tag(:div, class: "images-genera-second-step") do %>
+        <%= image_tag("barrra-86", class: "background-blue") %>
+        <%= content_tag(:div, class: "img-genera-secon-step") do %>
+          <%= image_tag("WEB-GANA-54", class: "genera-herramientas") %>
+          <%= image_tag("WEB-GANA-61", class: "gana-mas-image") %>
+        <% end %>
+      <% end %>
+      <%= content_tag(:div, class: "second-step-content") do %>
+        <%= image_tag("1-80", class: "title-second-step") %>
+        <%= content_tag(:p, "Conformaremos un equipo promotor formado por políticos, expertos, sociedad civil y organizaciones. ") %>
+      <% end %>
+    <% end %>
+
+    <%= content_tag(:div, class: "blue-genera-second-step") do %>
+      <div class="background-second-step">
+      </div>
+    <% end %>
+    <%= content_tag(:div, class: "descarga-second-step") do %>
+      <%= image_tag("WEB-GANA-102") %>
+      <%= image_tag("1-79") %>
+    <% end %>
+  <% end %>
+
+  <hr class="hr3">
+
+  <%= content_tag(:div, class: "gana-actores") do %>
+    <%= content_tag(:div, class: "gana-actores-title") do %>
+      <%= content_tag(:div, class: "title-actores") do %>
+        <%= image_tag("WEB-GANA-56", class: "name-title-actors") %>
+        <p> Conformaremos un <b>equipo promotor</b> formado por políticos, expertos, sociedad civil y organizaciones.</p>
+      <% end %>
+      <%= image_tag("WEB-GANA-57", class: "personas-title-actors") %>
+    <% end %>
+
+    <%= content_tag(:div, class: "blue-genera-third-step") do %>
+      <div class="background-third-step">
+      </div>
+    <% end %>
+    <%= content_tag(:div, class: "descarga-third-step") do %>
+      <%= image_tag("WEB-GANA-102") %>
+      <%= image_tag("1-79") %>
+    <% end %>
+  <% end %>
+
+
+  <hr class="hr4">
+
+  <%= image_tag("barrra-86", class: "background-blue-footer") %>
+
+  <%= content_tag(:div, class: "genera-footer-block") do %>
+    <%= content_tag(:div, class: "genera-footer") do %>
+      <%= link_to gana_genera_index_path do %>
+        <div class="gana-aporta-g"></div>
+        <p>1</p>
+      <% end %>
+      <%= link_to gana_arranca_index_path do %>
+        <div class="gana-aporta-a1">
+        </div>
+        <p>2</p>
+      <% end %>
+      <%= link_to gana_navega_index_path do %>
+        <div class="gana-aporta-n">
+        </div>
+        <p>3</p>
+      <% end %>
+      <%= link_to gana_aporta_index_path do %>
+        <div class="gana-aporta-a2">
+        </div>
+        <p>4</p>
+      <% end %>
+      <%= link_to gana_mas_index_path do %>
+        <div class="gana-aporta-mas">
+        </div>
+        <p>más</p>
+      <% end %>
+
+    <% end %>
+    <p style="color: #01a0c6; margin-right: 5%;"><b>¡Genial!</b></p>
+    <p style="width: 40%; font-size: 13px;margin:auto;">Te invitamos a pasar a la seguinte etapa.<br>No olvides dar check en tu <b>Lienzo de Presupuestos Participativos</b> y compartir tu experiencia en redes sociales con el <b>#ganamas</b></p>
+  <% end %>
+<% end %>
+
+<%= render template: "footer/index" %>
