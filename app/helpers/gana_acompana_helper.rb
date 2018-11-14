@@ -1,0 +1,2 @@
+module GanaAcompanaHelper
+end
