@@ -118,15 +118,12 @@ hr {
   }
 
 .gana-mas {
-  background-size: 65% 75%;
-  width: 100px;
-  height: 150px;
-  background-image: url("WEB-GANA-78.png");
+  background-size: 120px 200px;
+  width: 120px;
+  height: 200px;
+  background-image: url("WEB-GANA-60.png");
   background-repeat: no-repeat;
 }
-  .gana-mas:hover {
-    background-image: url("WEB-GANA2-50.png");
-  }
   .gana-mas:hover ~ p {
     color: red;
   }
