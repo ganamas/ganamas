@@ -150,20 +150,19 @@
           margin-top: 15px;
           float: right;
         }
-        .title-second-step {
-          width: 45%;
-          height: 20%;
+        .title-arranca-second-step {
+          width: 40%;
+          height: 13%;
           padding-top: 100px;
-          margin-left: -20%;
         }
-        .second-step-content {
+        .second-arranca-step-content {
           display: block;
-          width: auto;
+          width: 60%;
           height: auto;
         }
-          .second-step-content p {
-            width: 70%;
-            margin: 20px auto auto 5%;
+          .second-arranca-step-content p {
+            width: 80%;
+            margin: 20px auto auto auto;
           }
 .blue-genera-second-step {
   display: block;
@@ -183,11 +182,11 @@
   margin-left: auto;
   margin-right: auto;
 }
-.background-second-step {
+.background-arranca-second-step {
   width: 20%;
   height: 300px;
   max-height: 20%;
-  background-color: #01a0c6;
+  background-color: #0b8a36;
   margin-left: auto;
   margin-right: 25%;
 }
@@ -230,12 +229,15 @@
   }
   .name-title-actors {
     width: 45%;
-    height: 50%;
+    height: 37%;
     margin-left: 25%;
   }
-  .title-actores p {
+  .arranca-title-actores {
+    width: 60%;
+  }
+  .arranca-title-actores p {
     width: 62%;
-    margin: auto auto auto 32%;
+    margin: 20px auto auto 32%;
   }
   .personas-title-actors {
     width: 20%;
@@ -261,11 +263,11 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .background-third-step {
+  .background-arranca-third-step {
     width: 20%;
     height: 300px;
     max-height: 20%;
-    background-color: #01a0c6;
+    background-color: #0b8a36;
     margin-left: auto;
     margin-left: 25%;
   }
