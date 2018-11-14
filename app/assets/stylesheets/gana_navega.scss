@@ -1,3 +1,80 @@
-// Place all the styles related to the gana_navega controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.navega-second-step {
+  padding-top: 30px;
+  width: 100%;
+  height: 85%;
+}
+
+.gana-navega-first-step {
+  width: 200px;
+  height: 200px;
+  background-image: url("WEB-GANA-88.png");
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+.gana-navega-first-step p {
+  width: 50px;
+}
+
+.navega-hr1,
+.navega-hr2 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f98511;
+  width: 50%;
+}
+
+.gana-navega-g {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB-GANA-36.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+  .gana-navega-g:hover {
+    background-image: url("WEB-GANA-41.png");
+
+  }
+.gana-navega-a1 {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB GANA-42.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+  .gana-navega-a1:hover {
+      background-image: url("WEB GANA-37.png");
+  }
+  .gana-navega-a1:hover > .gana-navega-g {
+      background-image: url("WEB-GANA-36.png");
+  }
+.gana-navega-n {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB-GANA-88.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+.gana-navega-a2 {
+  width: 50px;
+  height: 50px;
+  background-image: url("WEB GANA-44.png");
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+}
+  .gana-navega-a2:hover {
+    background-image: url("WEB GANA-39.png");
+  }
+.gana-navega-mas {
+  width: 35px;
+  height: 50px;
+  background-image: url("WEB-GANA-50.jpg");
+  background-size: 35px 75px;
+  background-repeat: no-repeat;
+}
+  .gana-navega-mas:hover {
+    background-image: url("WEB-GANA-60.png");
+  }
+.navega-hr4{
+  width: 75%;
+}
