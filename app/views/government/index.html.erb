@@ -25,10 +25,10 @@
     <%= link_to gana_mas_index_path, class: "teste" do %>
       <div class="gana-mas">
       </div>
-      <%= content_tag(:p, "Más") %>
     <% end %>
   <% end %>
   <hr />
+  <p class="title-inicial" style="display: block; color: #0a0d2d; width: 70%; margin: auto"><b>¿Qué es Gana más?</b><br><br>Gana más es un kit de herramientas que promueve los presupuestos participativos por medio de dos iniciativas: por un lado una metodología para que cada comunidad trace su propio proceso y por el otro una aplicación para generar presión social para solicitar su implementación. </p>
   <%= content_tag(:p, "Es el primer paso de nuestro recorrido. Aquí vamos a conformar el grupo promotor, implicando a diferentes actores en la gestación e implementación de los presupuestos participativos.", class:"g-description") %>
   <%= content_tag(:p, "Estamos en la segunda instancia. Vamos a co-diseñar propuestas para invertir nuestros recursos y empoderar a la ciudadanía en un proceso colectivo de trabajo.", class:"a1-description") %>
   <%= content_tag(:p, "Este es nuestro momento crucial. Viajamos hacia la instancia de votación. Las propuestas ya se presentaron y ahora elegimos las ganadoras.", class:"n-description") %>
@@ -41,42 +41,52 @@
 <script type="text/javascript">
   $(function() {
     $('.gana-g').hover(function() {
+      $('.title-inicial').css('display', 'none');
       $('.g-description').css('display', 'block');
     }, function() {
       // on mouseout, reset the background colour
       $('.g-description').css('display', 'none');
+      $('.title-inicial').css('display', 'block');
     });
   });
   $(function() {
     $('.gana-a1').hover(function() {
+      $('.title-inicial').css('display', 'none');
       $('.a1-description').css('display', 'block');
     }, function() {
       // on mouseout, reset the background colour
       $('.a1-description').css('display', 'none');
+      $('.title-inicial').css('display', 'block');
     });
   });
   $(function() {
     $('.gana-n').hover(function() {
+      $('.title-inicial').css('display', 'none');
       $('.n-description').css('display', 'block');
     }, function() {
       // on mouseout, reset the background colour
       $('.n-description').css('display', 'none');
+      $('.title-inicial').css('display', 'block');
     });
   });
   $(function() {
     $('.gana-a2').hover(function() {
+      $('.title-inicial').css('display', 'none');
       $('.a2-description').css('display', 'block');
     }, function() {
       // on mouseout, reset the background colour
       $('.a2-description').css('display', 'none');
+      $('.title-inicial').css('display', 'block');
     });
   });
   $(function() {
     $('.gana-mas').hover(function() {
+      $('.title-inicial').css('display', 'none');
       $('.mas-description').css('display', 'block');
     }, function() {
       // on mouseout, reset the background colour
       $('.mas-description').css('display', 'none');
+      $('.title-inicial').css('display', 'block');
     });
   });
 </script>

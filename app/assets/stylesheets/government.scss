@@ -63,6 +63,7 @@ hr {
   }
   .gana-g ~ p {
     margin-left: 7.5px;
+    font-weight: bold;
   }
 
 .gana-a1 {
@@ -79,6 +80,7 @@ hr {
   }
   .gana-a1 ~ p {
     margin-left: 7.5px;
+    font-weight: bold;
   }
 
 .gana-n {
@@ -95,6 +97,7 @@ hr {
   }
   .gana-n ~ p {
     margin-left: 7.5px;
+    font-weight: bold;
   }
 
 .gana-a2 {
@@ -111,16 +114,18 @@ hr {
   }
   .gana-a2 ~ p {
     margin-left: 7.5px;
+    font-weight: bold;
   }
 
 .gana-mas {
-  background-size: 100px 150px;
+  background-size: 65% 75%;
   width: 100px;
   height: 150px;
-  background-image: url("WEB-GANA-50.jpg");
+  background-image: url("WEB-GANA-78.png");
+  background-repeat: no-repeat;
 }
   .gana-mas:hover {
-    background-image: url("WEB-GANA-60.png");
+    background-image: url("WEB-GANA2-50.png");
   }
   .gana-mas:hover ~ p {
     color: red;
