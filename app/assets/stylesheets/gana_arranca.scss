@@ -1,12 +1,309 @@
-// Place all the styles related to the gana_arranca controller here.
+// Place all the styles related to the gana_genera controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.teste32 {
-  background-image: url("WEB-GANA-31.jpg");
-  background-repeat: no-repeat;
-  display: block;
-  height: 829%;
+
+.main-arranca {
+  background-color: white;
   width: 100%;
-  background-size: 100%;
-  background-position: center;
+  height: 130%;
+  text-align: center;
+  display: block;
 }
+  .main-arranca p{
+    color: #0a0d2d;
+  }
+  .arranca-hr1, .arranca-hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #0b8a36;
+    width: 50%
+  }
+.gana-arranca-div {
+  display: flex;
+  width: 25%;
+  margin: auto auto 0 auto;
+  height: 60px;
+  position: relative;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+  .gana-arranca-div a:last-child {
+    padding-right: 0;
+  }
+  .gana-arranca-div a {
+    width: auto;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    padding-right: 3px;
+    color: #0a0d2d;
+  }
+  .gana-arranca-g {
+    width: 50px;
+    height: 50px;
+    background-image: url("WEB-GANA-36.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+  }
+    .gana-arranca-g:hover {
+      background-image: url("WEB-GANA-41.png");
+    }
+  .gana-arranca-a1 {
+    width: 50px;
+    height: 50px;
+    background-image: url("WEB GANA-37.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+  }
+  .gana-arranca-n {
+    width: 50px;
+    height: 50px;
+    background-image: url("WEB GANA-43.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+  }
+    .gana-arranca-n:hover {
+      background-image: url("WEB GANA-38.png");
+    }
+  .gana-arranca-a2 {
+    width: 50px;
+    height: 50px;
+    background-image: url("WEB GANA-44.png");
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+  }
+    .gana-arranca-a2:hover {
+      background-image: url("WEB GANA-39.png");
+    }
+  .gana-arranca-mas {
+    width: 35px;
+    height: 50px;
+    background-image: url("WEB-GANA-50.jpg");
+    background-size: 35px 75px;
+    background-repeat: no-repeat;
+  }
+    .gana-arranca-mas:hover {
+      background-image: url("WEB-GANA-60.png");
+    }
+
+.first-step {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+  .gana-arranca-first-step {
+    width: 200px;
+    height: 200px;
+    background-image: url("WEB GANA-37.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  }
+  .gana-genera-first-step p {
+    width: 50px;
+  }
+  .text-first-step {
+    width: 40%;
+    display: block;
+  }
+    .text-first-step h3 {
+      color: #0a0d2d;
+    }
+    .text-first-step img {
+      width: 65%;
+    }
+
+.genera-second-step {
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+}
+  .second-step-flex {
+    display: flex;
+  }
+    .images-genera-second-step {
+      width: 35%;
+      height: inherit;
+      display: flex;
+    }
+      .background-blue{
+        width: 45px;
+        height: 330px;
+        float: left;
+      }
+      .img-genera-secon-step {
+        display: block;
+        width: auto;
+        height: inherit;
+      }
+        .arranca-herramientas {
+          width: 160%;
+          max-width: 250px;
+        }
+        .gana-mas-image {
+          width: 90%;
+          max-width: 175px;
+          margin-top: 15px;
+          float: right;
+        }
+        .title-second-step {
+          width: 45%;
+          height: 20%;
+          padding-top: 100px;
+          margin-left: -20%;
+        }
+        .second-step-content {
+          display: block;
+          width: auto;
+          height: auto;
+        }
+          .second-step-content p {
+            width: 70%;
+            margin: 20px auto auto 5%;
+          }
+.blue-genera-second-step {
+  display: block;
+  margin-top: 70px;
+  width: 100%;
+}
+.arrow-second-step {
+  width: 15%;
+  margin-left: -50%;
+  margin-top: -90px;
+}
+
+.blue-genera-second-step p {
+  width: 30%;
+  height: auto;
+  word-break: break-all;
+  margin-left: auto;
+  margin-right: auto;
+}
+.background-second-step {
+  width: 20%;
+  height: 300px;
+  max-height: 20%;
+  background-color: #01a0c6;
+  margin-left: auto;
+  margin-right: 25%;
+}
+
+  .descarga-second-step {
+    display: block;
+    height: auto;
+    width: auto;
+    margin-top: -20%;
+  }
+  .descarga-second-step img{
+    width: 20%;
+    display: block;
+    margin-left: 25%;
+  }
+  .descarga-second-step img:last-child{
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 27%;
+  }
+  .hr3 {
+    width: 75%;
+    margin-top: -100px;
+  }
+
+  .hr4 {
+    width: 75%;
+    margin-top: 20%;
+  }
+
+.gana-actores {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+  .gana-actores-title {
+    display: flex;
+    margin-left: auto;
+    margin-top: 60px;
+  }
+  .name-title-actors {
+    width: 45%;
+    height: 50%;
+    margin-left: 25%;
+  }
+  .title-actores p {
+    width: 62%;
+    margin: auto auto auto 32%;
+  }
+  .personas-title-actors {
+    width: 20%;
+    margin-right: auto;
+  }
+  .blue-genera-third-step {
+    display: block;
+    margin-top: 70px;
+    width: 100%;
+  }
+  .arrow-third-step {
+    width: 15%;
+    margin-right: -50%;
+    margin-top: -90px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  .blue-genera-third-step p {
+    width: 30%;
+    height: auto;
+    word-break: break-all;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background-third-step {
+    width: 20%;
+    height: 300px;
+    max-height: 20%;
+    background-color: #01a0c6;
+    margin-left: auto;
+    margin-left: 25%;
+  }
+    .descarga-third-step {
+      display: block;
+      height: auto;
+      width: auto;
+      margin-top: -20%;
+    }
+    .descarga-third-step img{
+      width: 20%;
+      display: block;
+      margin-left: auto;
+      margin-right: 25%;
+
+    }
+    .descarga-third-step img:last-child{
+      width: 15%;
+      margin-top: 20px;
+      margin-right: 27%;
+    }
+
+  .genera-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .background-blue-footer{
+    width: 45px;
+    height: 330px;
+    float: left;
+    margin-top: 60px;
+  }
+  .genera-footer a {
+    margin-left: 0 !important;
+    margin-right: 3px;
+    text-decoration: none;
+  }
+  .genera-footer-block {
+    display: block;
+  }
