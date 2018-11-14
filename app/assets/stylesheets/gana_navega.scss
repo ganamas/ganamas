@@ -9,10 +9,17 @@
   height: 200px;
   background-image: url("WEB-GANA-88.png");
   background-size: 200px 200px;
+  margin-right: 20px;
   background-repeat: no-repeat;
 }
 .gana-navega-first-step p {
   width: 50px;
+}
+.title-navega-second-step{
+  width: 40%;
+  height: 19%;
+  padding-top: 100px;
+  margin-left: -20%;
 }
 
 .navega-hr1,
@@ -77,4 +84,12 @@
   }
 .navega-hr4{
   width: 75%;
+}
+.background-navega-second-step {
+  width: 20%;
+  height: 300px;
+  max-height: 20%;
+  background-color: #f98511;
+  margin-left: auto;
+  margin-right: 25%;
 }
