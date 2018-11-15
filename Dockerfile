@@ -7,7 +7,7 @@ WORKDIR /ganamas
 COPY Gemfile /ganamas/Gemfile
 COPY Gemfile.lock /ganamas/Gemfile.lock
 
-RUN bundle install
+RUN bundle install --without production
 
 COPY . /ganamas
 
