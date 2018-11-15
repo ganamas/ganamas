@@ -7,20 +7,14 @@
   <% end %>
 
   <%= content_tag(:div, class: "links-gana") do %>
-    <%= link_to citizen_index_path do %>
-      Contacto
+    <%= link_to contact_index_path do %>
+      <b>Contacto</b>
     <% end %>
-    <%= link_to citizen_index_path do %>
-      Nosotros
+    <%= link_to about_index_path do %>
+      <b>Nosotros</b>
     <% end %>
-    <%= link_to government_index_path do %>
-      Gobierno+
-    <% end %>
-    <%= link_to citizen_index_path do %>
-    Ciudadanía+
-    <% end %>
-    <%= link_to citizen_index_path do %>
-    ¿Que és?
+    <%= link_to what_is_index_path do %>
+      <b>¿Que és?</b>
     <% end %>
   <% end %>
 <% end %>
